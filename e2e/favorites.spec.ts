@@ -12,8 +12,11 @@ test('Select favorite product', async ({ page }) => {
   await page.waitForLoadState('networkidle');
 
   // Click on favorites in a product.
-  await page.locator('[aria-label="Voeg product toe aan favorieten"]').first().click();
-
+  const button = page.locator('[aria-label="Voeg product toe aan favorieten"]').first();
+  await expect(button).toBeVisible()
+  await button.click()
+  
   // Badge should be displayed
-  await expect(page.locator('[aria-label="Je hebt 1 favoriete product toegevoegd"]')).toBeVisible();  
+  const badge = page.locator('[aria-label="Je hebt 1 favoriete product toegevoegd"]')
+  await expect(badge).toBeVisible();  
 });

@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
 // prevent the root document from being scrollable, for example when a dialog is open
+let scrollTop: number
 export default function usePreventBodyscroll() {
-  let scrollTop: number
   return useEffect(() => {
     scrollTop = document.documentElement.scrollTop;
     document.documentElement.classList.add('tw-fixed');
