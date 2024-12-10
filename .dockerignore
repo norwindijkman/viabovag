@@ -1,0 +1,16 @@
+.DS_Store
+/node_modules
+/.vercel_build_output
+/workers-site
+yarn-error.log
+.vercel
+cm/
+docker/
+scripts/
+
+.tmp/
+.cache/
+.git/
+node_modules/
+.env
+data/
