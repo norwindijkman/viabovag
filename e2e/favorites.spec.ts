@@ -1,18 +1,19 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://divotion.plathena.com');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle(/CameraStore/);
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('Select favorite product', async ({ page }) => {
+  await page.goto('https://divotion.plathena.com');
+  await page.waitForLoadState('networkidle');
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  // Click on favorites in a product.
+  await page.locator('[aria-label="Voeg product toe aan favorieten"]').first().click();
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  // Badge should be displayed
+  await expect(page.locator('[aria-label="Je hebt 1 favoriete product toegevoegd"]')).toBeVisible();  
 });
