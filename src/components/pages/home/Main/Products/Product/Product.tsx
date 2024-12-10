@@ -40,7 +40,7 @@ export default function Product({ product }: { product: typeof ProductData[numbe
           <div className="tw-text-xl tw-font-extrabold">
             {formatPrice(product.price)}
           </div>
-          <div className="tw-font-semibold tw-text-[#139957] tw-text-sm">
+          <div className="tw-font-semibold tw-text-[#10844A] tw-text-sm">
             Morgen gratis in huis
           </div>
         </div>
@@ -52,6 +52,7 @@ export default function Product({ product }: { product: typeof ProductData[numbe
       </div>
       <div className="tw-absolute tw-top-4 tw-right-0">
         <button 
+          aria-label={ids.has(product.id) ? 'Verwijder product uit favorieten' : 'Voeg product toe aan favorieten'}
           onMouseLeave={() => setFavHover(false)}
           onMouseEnter={() => setFavHover(true)}
           onClick={handleFavClick} 

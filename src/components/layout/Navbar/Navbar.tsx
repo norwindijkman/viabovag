@@ -33,7 +33,11 @@ export default function Navbar() {
               <Favorites />
             </div>
             <div className="md:tw-hidden">
-              <button onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)} className="tw-h-10 tw-w-10 tw-justify-items-center">
+              <button 
+                aria-label="Toggle mobiele menu"
+                onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)} 
+                className="tw-h-10 tw-w-10 tw-justify-items-center"
+              >
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg>
               </button>
               {mobileMenuIsOpen ? <MobileSearch close={() => setMobileMenuIsOpen(false)} /> : ''}

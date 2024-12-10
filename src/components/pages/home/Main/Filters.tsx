@@ -9,10 +9,16 @@ export default function Filters({ searchValue }: { searchValue: string }) {
       <div className="tw-flex tw-gap-3 tw-py-1">
         <div className=" tw-items-center tw-flex tw-gap-2">
           <div className="tw-items-center tw-flex tw-gap-2">
-            <button className="tw-py-2 tw-px-2 tw-rounded-full hover:tw-bg-black/20 tw-inline-flex hover:tw-no-underline">
+            <button 
+              aria-label="Navigeer naar vorige pagina"
+              className="tw-py-2 tw-px-2 tw-rounded-full hover:tw-bg-black/20 tw-inline-flex hover:tw-no-underline"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" /></svg>
             </button>
-            <button className="tw-py-2 tw-px-2 tw-rounded-full hover:tw-bg-black/20 tw-inline-flex hover:tw-no-underline">
+            <button 
+              aria-label="Navigeer naar volgende pagina"
+              className="tw-py-2 tw-px-2 tw-rounded-full hover:tw-bg-black/20 tw-inline-flex hover:tw-no-underline"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" /></svg>
             </button>
           </div>
@@ -25,6 +31,7 @@ export default function Filters({ searchValue }: { searchValue: string }) {
             <span className="tw-mr-2">Sorteer</span>
             <div className="tw-relative tw-w-[var(--width)]">
               <label>
+                <div className="tw-sr-only">Sorteer zoekresultaten</div>
                 <select className="tw-px-4 tw-py-2 tw-rounded-full tw-w-full tw-appearance-none">
                   <option value="">Relevantie</option>
                   <option value="school">Prijs</option>
