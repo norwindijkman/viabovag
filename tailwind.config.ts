@@ -6,10 +6,15 @@ export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/util/hooks/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'button': '0px 4px 1px var(--primary-dark)',
+        'button-secondary': '0px 4px 1px var(--secondary-dark)',
+      },
       colors: {
         primary: 'var(--primary)',
         'primary-dark': 'var(--primary-dark)',

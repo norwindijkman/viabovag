@@ -26,9 +26,11 @@ export default async function Home() {
   return (
     <div>
       <Breadcrumbs />
-      <div className="tw-grid tw-grid-cols-[24rem_1fr] tw-pt-8">
+      <div className="tw-grid md:tw-grid-cols-[18rem_1fr] tw-pt-8">
+        <div className="tw-hidden md:tw-block">
         <Sidebar searchValue={searchValue} />
-        <Main products={products} />
+        </div>
+        <Main searchValue={searchValue} products={products} />
       </div>
     </div>
   );

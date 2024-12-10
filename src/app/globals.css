@@ -12,6 +12,7 @@
   --background: #FFFFFF;
   --foreground: #000000;
   --foreground-light: #283D5A;
+  --save-height: 100vh;
 }
 
 body {
