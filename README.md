@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Divotion favoriten opdracht
 
-## Getting Started
+Algemene strategie:
 
-First, run the development server:
+1. Maak snel een logo en branding.
+2. Verzamel gegevens en voeg een pagina met artikelen toe.
+3. De app heeft geen backend, dus ik heb localStorage gebruikt om de favorieten op te slaan. Normaal zou dat beter in een database kunnen.
+3. Voeg een favorietenwinkel toe, met een favorietenknop op elk artikel en in de navigatiebalk.
+4. Voeg een zijbalk met favorieten toe.
+5. Zorg ervoor dat alles toegankelijk is.
+6. Voeg een E2E-test toe om de favorietenknoppen te testen.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Verbeteringen die ik wil doorvoeren:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Vanwege de tijdsdruk is de pagina wel behoorlijk minimaal. Ik had graag een productpagina en meer branding toegevoegd.
+2. Maak pagination functioneel.
+3. Maak de zijbalk en de broodkruimels interactief.
+4. Voeg meer tests toe.
+5. Voeg meer branding toe, zoals kleurvariaties en een animatie bij het klikken op een hartje.
+6. Voeg meer inhoud toe. Bijvoorbeeld, webshops hebben vaak informatieve links zoals: Gratis verzending, vanaf €100.
+7. Voeg een footer toe.
+8. Misschien een donkere modus toevoegen.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+Resultaat:
 
-To learn more about Next.js, take a look at the following resources:
+https://divotion.plathena.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Hoewel de app minimalistisch is, doet het precies wat het moet doen en is het 100% toegankelijk. Bijvoorbeeld, wanneer de zijbalk open is en je op tab drukt, blijft de focus binnen de zijbalk.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
