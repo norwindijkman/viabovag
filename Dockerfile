@@ -34,8 +34,8 @@ EXPOSE 3000
 CMD ["yarn", "start"]
 
 # For convenience:
-# docker build -t ghcr.io/norwindijkman/divotion:local .
-# docker run --env-file .env -p 3000:3000 --network="host" ghcr.io/norwindijkman/divotion:local
-# docker push ghcr.io/norwindijkman/divotion:local
-# kubectl -n divotion set image deployment/divotion divotion=ghcr.io/norwindijkman/divotion:local
-# kubectl -n divotion rollout restart deployment divotion
+# docker build -t norwin/biabovag:local .
+# docker run --env-file .env -p 3000:3000 --network="host" norwin/biabovag:local
+# docker push norwin/biabovag:local
+# kubectl -n divotion set image deployment/biabovag biabovag=norwin/biabovag:local
+# kubectl -n divotion rollout restart deployment biabovag

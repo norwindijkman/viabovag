@@ -10,7 +10,9 @@ const matchValue = (str: string, search: string) => {
 }
 
 const filterProduct = (searchValue: string) => (product: typeof ProductData[number]) => {
-  return matchValue(product.name, searchValue) || matchValue(product.brand, searchValue)
+  return matchValue(product.title, searchValue) || 
+    matchValue(product.bouwjaar, searchValue) ||
+    matchValue(product.brandstof, searchValue)
 }
 
 export default async function Home() {

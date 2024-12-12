@@ -9,99 +9,70 @@ export default function Categories() {
             <Link href="#" className="tw-font-bold tw-text-lg tw-text-gray-800 hover:tw-text-primary">Merk</Link>
             <ul className="tw-pl-4 tw-space-y-2">
               <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Sony</Link>
+                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Mercedes-Benz</Link>
                 <ul className="tw-pl-4 tw-space-y-1">
                   <li>
-                    <Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Fotocamera&lsquo;s</Link>
+                    <Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Benzine</Link>
                     <ul className="tw-pl-4 tw-space-y-1">
-                      <li><Link href="#" className="tw-text-gray-500 hover:tw-text-primary">Systeemcamera&lsquo;s</Link></li>
+                      <li><Link href="#" className="tw-text-gray-500 hover:tw-text-primary">Sedan</Link></li>
+                      <li><Link href="#" className="tw-text-gray-500 hover:tw-text-primary">SUV</Link></li>
+                      <li><Link href="#" className="tw-text-gray-500 hover:tw-text-primary">Coupé</Link></li>
                     </ul>
                   </li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Objectieven</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Audio & televisie</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Videocamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Statieven</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Diesel</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Elektrisch</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Hybride</Link></li>
                 </ul>
               </li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Canon</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Nikon</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Panasonic</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Fujifilm</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Sigma</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">DJI</Link></li>
-              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Leica</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">BMW</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Audi</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Volkswagen</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Toyota</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Ford</Link></li>
             </ul>
           </li>
           <li>
-            <Link href="#" className="tw-font-bold tw-text-lg tw-text-gray-800 hover:tw-text-primary">Product</Link>
+            <Link href="#" className="tw-font-bold tw-text-lg tw-text-gray-800 hover:tw-text-primary">Carrosserietype</Link>
             <ul className="tw-pl-4 tw-space-y-2">
               <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Fotocamera&lsquo;s</Link>
+                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Sedan</Link>
                 <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Spiegelreflexcamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Systeemcamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Compactcamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Instant camera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Meetzoekercamera&lsquo;s</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Compact</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Middelgrote Sedan</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Luxe Sedan</Link></li>
                 </ul>
               </li>
               <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Objectieven</Link>
+                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">SUV</Link>
                 <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Groothoek</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Telelens</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Prime lenzen</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Zoomlenzen</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Macro</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Compact SUV</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Luxe SUV</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Middelgrote SUV</Link></li>
                 </ul>
               </li>
               <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Statieven</Link>
+                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Coupé</Link>
                 <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Driepootstatieven</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Monopods</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Gimbals</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Sport Coupé</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Luxe Coupé</Link></li>
                 </ul>
               </li>
               <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Videocamera&lsquo;s</Link>
+                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Convertible</Link>
                 <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">4K videocamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Professionele videocamera&lsquo;s</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Drones</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Targa</Link></li>
+                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Cabriolet</Link></li>
                 </ul>
               </li>
-              <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Tassen</Link>
-                <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Rugtassen</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Schoudertassen</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Rolkooien</Link></li>
-                </ul>
-              </li>
-              <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Studio</Link>
-                <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Verlichting</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Achtergronden</Link></li>
-                </ul>
-              </li>
-              <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Beeldbewerking</Link>
-                <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Software</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Grafische tw-tablets</Link></li>
-                </ul>
-              </li>
-              <li>
-                <Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Audio & televisie</Link>
-                <ul className="tw-pl-4 tw-space-y-1">
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Microfoons</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Koptelefoons</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Soundbars</Link></li>
-                  <li><Link href="#" className="tw-text-gray-600 hover:tw-text-primary">Monitoren</Link></li>
-                </ul>
-              </li>
+            </ul>
+          </li>
+          <li>
+            <Link href="#" className="tw-font-bold tw-text-lg tw-text-gray-800 hover:tw-text-primary">Prijs</Link>
+            <ul className="tw-pl-4 tw-space-y-2">
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Onder €20.000</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">€20.000 - €40.000</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">€40.000 - €60.000</Link></li>
+              <li><Link href="#" className="tw-font-semibold tw-text-gray-700 hover:tw-text-primary">Boven €60.000</Link></li>
             </ul>
           </li>
         </ul>

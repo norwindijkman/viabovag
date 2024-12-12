@@ -29,12 +29,12 @@ export default function Search() {
             className="tw-block tw-w-full tw-px-4 tw-py-2 tw-ps-12 tw-text-sm tw-text-foreground tw-border tw-rounded
             tw-border-primary-dark tw-shadow-button -tw-translate-y-0.5 tw-my-0.5
             outline outline-offset-2 outline-1 placeholder:tw-text-foreground-light/50 tw-mr-2" 
-            placeholder="Search camera lens" 
+            placeholder="Zoek auto occasion" 
           />
           <div className="tw-absolute tw-top-1.5 tw-start-0 tw-flex tw-items-center tw-ps-3 tw-pointer-events-none">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="var(--foreground-light)"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
           </div>
-          <Button>Search</Button>
+          <Button>Zoeken</Button>
         </div>
       </form>
     </div>

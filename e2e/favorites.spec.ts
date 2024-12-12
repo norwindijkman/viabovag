@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto('https://divotion.plathena.com');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/CameraStore/);
+  await expect(page).toHaveTitle(/NextCar/);
 });
 
 test('Select favorite product', async ({ page }) => {

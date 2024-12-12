@@ -34,7 +34,7 @@ export default function Breadcrumbs() {
                       href="#"
                       className="tw-ml-1 tw-font-medium tw-text-gray-900 hover:tw-text-[#496361] dark:tw-text-stone-300 dark:hover:tw-text-white md:tw-ml-2"
                     >
-                      Sony
+                      Mercedes-Benz
                     </a>
                   </div>
                 </li>
@@ -53,7 +53,7 @@ export default function Breadcrumbs() {
                       href="#"
                       className="tw-ml-1 tw-font-medium tw-text-gray-900 hover:tw-text-[#496361] dark:tw-text-stone-300 dark:hover:tw-text-white md:tw-ml-2"
                     >
-                      Fotocamera&lsquo;s
+                      Benzine
                     </a>
                   </div>
                 </li>
@@ -72,7 +72,7 @@ export default function Breadcrumbs() {
                       href="#"
                       className="tw-ml-1 tw-font-medium tw-text-gray-900 hover:tw-text-[#496361] dark:tw-text-stone-300 dark:hover:tw-text-white md:tw-ml-2"
                     >
-                      Systeemcamera&lsquo;s
+                      Sedan
                     </a>
                   </div>
                 </li>
@@ -92,7 +92,7 @@ export default function Breadcrumbs() {
                   >
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
                   </svg>
-                  Systeemcamera&lsquo;s
+                  Mercedes-Benz
                 </a>
               </div>
               <div className="tw-hidden md:tw-block tw-ml-auto tw-py-1.5">

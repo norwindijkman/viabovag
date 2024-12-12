@@ -20,7 +20,7 @@ export default function Navbar() {
         </button>
         {favoritesCount ? (
           <div 
-            className="tw-absolute tw-select-none tw-top-0 tw-right-0 tw-bg-[#E74C3C] tw-w-4 tw-h-4 tw-text-[.75rem] tw-justify-items-center tw-text-center tw-text-white tw-rounded-full"
+            className="tw-absolute tw-pointer-events-none tw-top-0 tw-right-0 tw-bg-[#E74C3C] tw-w-4 tw-h-4 tw-text-[.75rem] tw-justify-items-center tw-text-center tw-text-white tw-rounded-full"
             aria-label={`Je hebt ${favoritesCount} favoriete ${favoritesCount === 1 ? 'product' : 'producten'} toegevoegd`}
           >
             {favoritesCount}

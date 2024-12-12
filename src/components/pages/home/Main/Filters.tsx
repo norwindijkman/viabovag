@@ -2,7 +2,7 @@ import CurrentSearch from "../Sidebar/CurrentSearch";
 
 export default function Filters({ searchValue }: { searchValue: string }) {
   return (
-    <div>
+    <div className="tw-mb-4">
       <div className="md:tw-hidden">
         {searchValue ? <CurrentSearch searchValue={searchValue} /> : ''}
       </div>

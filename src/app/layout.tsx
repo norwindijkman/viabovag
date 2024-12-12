@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "CameraStore",
-  description: "Buy Amazing Camera's and lenses",
+  title: "NextCar",
+  description: "Vind de beste auto voor een scherpe prijs",
 };
 
 export default function Layout({
